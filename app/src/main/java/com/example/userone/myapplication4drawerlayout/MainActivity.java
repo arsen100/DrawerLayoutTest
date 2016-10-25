@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // SnackBar оповещает пользователя о выполнении какой-либо операции. 
+                //Он показывает короткое сообщение в нижней части экрана на смартфоне и нижнем левом углу на планшете. SnackBar появляется над всеми другими элементами на экране.
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
