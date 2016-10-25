@@ -95,6 +95,7 @@ public class MainActivity extends AppCompatActivity
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        //закрыть выдвижную панель
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
