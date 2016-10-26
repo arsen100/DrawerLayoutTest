@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
     }
 
+    //При нажатии кнопки "Назад" проверяется состояние шторки.
+    // Если шторка открыта (isDrawerOpen()), то её закрываем с помощью метода closeDrawer().
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
